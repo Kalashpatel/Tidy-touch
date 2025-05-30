@@ -1,0 +1,31 @@
+:root{
+    --bs-primary: #AB8965;
+    --bs-primary-rgb: 171, 137, 101;
+    --bs-dark: #181818;
+    --bs-font-sans-serif: 'Jost';
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Marcellus';
+    color: black;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.p-150{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.p-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pt-150px{
+    padding-top: 150px;
+}
+.pb-150{
+    padding-bottom: 150px;
+}
