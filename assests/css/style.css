@@ -682,7 +682,7 @@ ul{
     height: 450px;
     width: 90%;
 }
-.testimonial-content, .work-item, .work-tag{
+.testimonial-content, .work-item, .work-tag, .news{
     background-color: rgba(220, 220, 220, 0.5);
 }
 .t-circle{
@@ -763,4 +763,69 @@ ul{
 .work-arrow{
     right: -20%;
     top: -20%;
+}
+.news-item{
+    min-height: 450px;
+}
+.n-header{
+    height: 40px;
+}
+.n-shape{
+    clip-path: polygon(0% 0%, 100% 100%, 100% 0%);
+}
+.header-title p{
+    line-height: 40px;
+}
+.news-date{
+    min-height: 65px;
+    width: 60px;
+    right: 0;
+    top: 0;
+}
+.n-date h4{
+    line-height: 45px;
+}
+.news-metalist ul li:first-child{
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+.news-metalist{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+footer{
+    background: url(../images/footer/footer-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.fh-icon{
+    width: 80px;
+    height: 80px;
+}
+.fh-icon i{
+    line-height: 80px;
+}
+.f-icons ul li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+}
+.f-icons ul li i{
+    line-height: 40px;
+}
+.f-links ul li{
+    list-style: disc;
+}
+.f-links ul li::marker{
+    color: white;
+}
+.bottom-bar{
+    clip-path: polygon(2.5% 0%, 0% 100%, 100% 100%, 97.5% 0%);
 }
